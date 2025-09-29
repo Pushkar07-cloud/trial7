@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Hero fields image (SVG replacement for JPG) -->
+  <rect width="800" height="500" fill="#f1f8e9"/>
+  
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="200" fill="#bbdefb"/>
+  <circle cx="650" cy="80" r="40" fill="#ffeb3b" opacity="0.9"/>  <!-- Sun -->
+  
+  <!-- Clouds -->
+  <g fill="#ffffff" opacity="0.8">
+    <ellipse cx="150" cy="70" rx="50" ry="30"/>
+    <ellipse cx="180" cy="60" rx="40" ry="25"/>
+    <ellipse cx="120" cy="80" rx="45" ry="20"/>
+    
+    <ellipse cx="450" cy="100" rx="60" ry="25"/>
+    <ellipse cx="480" cy="90" rx="50" ry="30"/>
+    <ellipse cx="420" cy="110" rx="40" ry="20"/>
+  </g>
+  
+  <!-- Hills in background -->
+  <path d="M0,200 Q200,150 400,200 Q600,150 800,200 L800,250 L0,250 Z" fill="#c5e1a5"/>
+  
+  <!-- Main field -->
+  <rect x="0" y="250" width="800" height="250" fill="#9ccc65"/>
+  
+  <!-- Field rows/patterns -->
+  <g stroke="#7cb342" stroke-width="1" opacity="0.7">
+    <line x1="0" y1="280" x2="800" y2="290" />
+    <line x1="0" y1="310" x2="800" y2="320" />
+    <line x1="0" y1="340" x2="800" y2="350" />
+    <line x1="0" y1="370" x2="800" y2="380" />
+    <line x1="0" y1="400" x2="800" y2="410" />
+    <line x1="0" y1="430" x2="800" y2="440" />
+    <line x1="0" y1="460" x2="800" y2="470" />
+  </g>
+  
+  <!-- Crop rows -->
+  <g>
+    <!-- Row 1 -->
+    <g transform="translate(100, 300)">
+      <path d="M-10 0 Q-15 -20 -5 -30 Q0 -35 5 -25 Q10 -15 5 0" fill="#558b2f"/>
+      <line x1="0" y1="-25" x2="0" y2="0" stroke="#33691e" stroke-width="1"/>
+    </g>
+    
+    <g transform="translate(150, 300)">
+      <path d="M-10 0 Q-15 -20 -5 -30 Q0 -35 5 -25 Q10 -15 5 0" fill="#558b2f"/>
+      <line x1="0" y1="-25" x2="0" y2="0" stroke="#33691e" stroke-width="1"/>
+    </g>
+    
+    <g transform="translate(200, 300)">
+      <path d="M-10 0 Q-15 -20 -5 -30 Q0 -35 5 -25 Q10 -15 5 0" fill="#558b2f"/>
+      <line x1="0" y1="-25" x2="0" y2="0" stroke="#33691e" stroke-width="1"/>
+    </g>
+    
+    <!-- Row 2 -->
+    <g transform="translate(300, 350)">
+      <path d="M-10 0 Q-15 -20 -5 -30 Q0 -35 5 -25 Q10 -15 5 0" fill="#558b2f"/>
+      <line x1="0" y1="-25" x2="0" y2="0" stroke="#33691e" stroke-width="1"/>
+    </g>
+    
+    <g transform="translate(350, 350)">
+      <path d="M-10 0 Q-15 -20 -5 -30 Q0 -35 5 -25 Q10 -15 5 0" fill="#558b2f"/>
+      <line x1="0" y1="-25" x2="0" y2="0" stroke="#33691e" stroke-width="1"/>
+    </g>
+    
+    <g transform="translate(400, 350)">
+      <path d="M-10 0 Q-15 -20 -5 -30 Q0 -35 5 -25 Q10 -15 5 0" fill="#558b2f"/>
+      <line x1="0" y1="-25" x2="0" y2="0" stroke="#33691e" stroke-width="1"/>
+    </g>
+    
+    <!-- Row 3 -->
+    <g transform="translate(500, 400)">
+      <path d="M-10 0 Q-15 -20 -5 -30 Q0 -35 5 -25 Q10 -15 5 0" fill="#558b2f"/>
+      <line x1="0" y1="-25" x2="0" y2="0" stroke="#33691e" stroke-width="1"/>
+    </g>
+    
+    <g transform="translate(550, 400)">
+      <path d="M-10 0 Q-15 -20 -5 -30 Q0 -35 5 -25 Q10 -15 5 0" fill="#558b2f"/>
+      <line x1="0" y1="-25" x2="0" y2="0" stroke="#33691e" stroke-width="1"/>
+    </g>
+    
+    <g transform="translate(600, 400)">
+      <path d="M-10 0 Q-15 -20 -5 -30 Q0 -35 5 -25 Q10 -15 5 0" fill="#558b2f"/>
+      <line x1="0" y1="-25" x2="0" y2="0" stroke="#33691e" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- Tractor in distance -->
+  <g transform="translate(700, 320)">
+    <rect x="-20" y="-15" width="40" height="20" fill="#d32f2f"/>
+    <rect x="-25" y="5" width="50" height="10" fill="#b71c1c"/>
+    <circle cx="-15" cy="15" r="8" fill="#212121"/>
+    <circle cx="15" cy="15" r="12" fill="#212121"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="450" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#33691e">Fertile Fields</text>
+</svg>

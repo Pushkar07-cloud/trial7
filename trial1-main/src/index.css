@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* AgriSense AI Design System - Agriculture focused with green theme */
+
+@layer base {
+  :root {
+    /* Agricultural Green Theme */
+    --background: 0 0% 100%;
+    --foreground: 210 24% 16%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 24% 16%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 24% 16%;
+
+    /* Primary Green - Nature/Agriculture inspired */
+    --primary: 142 76% 36%;
+    --primary-foreground: 0 0% 98%;
+    --primary-light: 142 50% 55%;
+    --primary-dark: 142 85% 25%;
+
+    /* Secondary Earth Tones */
+    --secondary: 39 77% 92%;
+    --secondary-foreground: 142 76% 36%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 142 30% 90%;
+    --accent-foreground: 142 76% 36%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 142 76% 36%;
+
+    --radius: 12px;
+
+    /* AgriSense specific colors */
+    --agri-green: 142 76% 36%;
+    --agri-green-light: 142 50% 55%;
+    --agri-green-dark: 142 85% 25%;
+    --agri-earth: 39 77% 92%;
+    --agri-sky: 200 85% 96%;
+    --agri-soil: 25 30% 25%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 50% 55%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(142 30% 98%));
+    --gradient-accent: linear-gradient(90deg, hsl(142 30% 90%), hsl(39 77% 92%));
+
+    /* Shadows */
+    --shadow-card: 0 4px 20px -2px hsl(142 76% 36% / 0.1);
+    --shadow-hero: 0 20px 40px -10px hsl(142 76% 36% / 0.2);
+    --shadow-button: 0 8px 25px -8px hsl(142 76% 36% / 0.3);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark mode with agricultural green accent - improved contrast and readability */
+    --background: 220 25% 15%;
+    --foreground: 0 0% 98%;
+
+    --card: 220 25% 18%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 220 25% 18%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 142 65% 60%;
+    --primary-foreground: 220 25% 15%;
+    --primary-light: 142 60% 70%;
+    --primary-dark: 142 70% 45%;
+
+    --secondary: 220 20% 25%;
+    --secondary-foreground: 142 65% 70%;
+
+    --muted: 220 20% 25%;
+    --muted-foreground: 0 0% 80%;
+
+    --accent: 142 20% 25%;
+    --accent-foreground: 142 65% 70%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 20% 30%;
+    --input: 220 20% 30%;
+    --ring: 142 65% 60%;
+
+    /* Dark mode agriculture colors - improved vibrancy */
+    --agri-green: 142 65% 60%;
+    --agri-green-light: 142 60% 70%;
+    --agri-green-dark: 142 70% 45%;
+    --agri-earth: 39 45% 25%;
+    --agri-sky: 200 45% 25%;
+    --agri-soil: 25 35% 20%;
+
+    /* Dark mode gradients - more vibrant and appealing */
+    --gradient-hero: linear-gradient(135deg, hsl(142 65% 60%), hsl(142 60% 70%));
+    --gradient-card: linear-gradient(145deg, hsl(220 25% 18%), hsl(220 20% 22%));
+    --gradient-accent: linear-gradient(90deg, hsl(142 20% 25%), hsl(142 35% 30%));
+
+    /* Dark mode shadows - improved depth and glow effects */
+    --shadow-card: 0 4px 20px -2px hsl(142 65% 60% / 0.15);
+    --shadow-hero: 0 20px 40px -10px hsl(142 65% 60% / 0.2);
+    --shadow-button: 0 8px 25px -8px hsl(142 65% 60% / 0.3);
+
+    --sidebar-background: 220 25% 17%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 142 65% 60%;
+    --sidebar-primary-foreground: 220 25% 15%;
+    --sidebar-accent: 220 20% 22%;
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 220 20% 30%;
+    --sidebar-ring: 142 65% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

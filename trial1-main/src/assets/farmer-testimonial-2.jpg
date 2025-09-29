@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <!-- Farmer testimonial 2 image (SVG replacement for JPG) -->
+  <circle cx="150" cy="150" r="150" fill="#e8f5e9"/>
+  
+  <!-- Farmer portrait (female) -->
+  <g transform="translate(150, 130)">
+    <!-- Face -->
+    <circle cx="0" cy="0" r="70" fill="#d7ccc8"/>
+    
+    <!-- Hair/Headscarf -->
+    <path d="M-70 -20 Q-60 -80 0 -80 Q60 -80 70 -20" fill="#f06292" stroke="#ec407a" stroke-width="2"/>
+    <path d="M-70 -20 L-70 20 Q-60 30 -40 30" fill="#f06292" stroke="#ec407a" stroke-width="1"/>
+    <path d="M70 -20 L70 20 Q60 30 40 30" fill="#f06292" stroke="#ec407a" stroke-width="1"/>
+    
+    <!-- Eyes -->
+    <ellipse cx="-25" cy="-15" rx="8" ry="5" fill="#3e2723"/>
+    <ellipse cx="25" cy="-15" rx="8" ry="5" fill="#3e2723"/>
+    
+    <!-- Eyebrows -->
+    <path d="M-35 -25 Q-25 -30 -15 -25" fill="none" stroke="#3e2723" stroke-width="2"/>
+    <path d="M15 -25 Q25 -30 35 -25" fill="none" stroke="#3e2723" stroke-width="2"/>
+    
+    <!-- Nose -->
+    <path d="M0 -15 Q5 0 0 10" fill="none" stroke="#5d4037" stroke-width="2"/>
+    
+    <!-- Mouth -->
+    <path d="M-20 25 Q0 35 20 25" fill="none" stroke="#5d4037" stroke-width="2"/>
+    
+    <!-- Bindi -->
+    <circle cx="0" cy="-30" r="3" fill="#d32f2f"/>
+    
+    <!-- Earrings -->
+    <circle cx="-70" cy="0" r="5" fill="#ffd54f"/>
+    <circle cx="70" cy="0" r="5" fill="#ffd54f"/>
+  </g>
+  
+  <!-- Farmer clothes/shoulders -->
+  <path d="M50 200 L150 250 L250 200" fill="#7e57c2" stroke="#5e35b1" stroke-width="2"/>
+  
+  <!-- Decorative elements -->
+  <g transform="translate(50, 50)">
+    <path d="M0 0 Q10 -10 20 0 Q30 10 40 0" fill="none" stroke="#81c784" stroke-width="2"/>
+  </g>
+  
+  <g transform="translate(210, 50)">
+    <path d="M0 0 Q10 -10 20 0 Q30 10 40 0" fill="none" stroke="#81c784" stroke-width="2"/>
+  </g>
+  
+  <!-- Organic plant symbol -->
+  <g transform="translate(40, 230)">
+    <path d="M0 0 Q10 -20 20 -10 Q30 -30 40 -20" fill="none" stroke="#aed581" stroke-width="2"/>
+    <path d="M20 -10 L20 20" stroke="#7cb342" stroke-width="1"/>
+  </g>
+  
+  <!-- Name label -->
+  <rect x="100" y="250" width="100" height="25" rx="5" ry="5" fill="#7e57c2" opacity="0.8"/>
+  <text x="150" y="267" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#ffffff">Priya Sharma</text>
+</svg>

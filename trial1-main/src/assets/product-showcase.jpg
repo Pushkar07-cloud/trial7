@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Product showcase image (SVG replacement for JPG) -->
+  <rect width="800" height="600" fill="#f1f8e9"/>
+  
+  <!-- Background elements -->
+  <rect x="0" y="400" width="800" height="200" fill="#81c784" opacity="0.3"/>
+  <circle cx="650" cy="100" r="80" fill="#4caf50" opacity="0.2"/>
+  <circle cx="100" cy="150" r="50" fill="#4caf50" opacity="0.2"/>
+  
+  <!-- Tablet/Device frame -->
+  <rect x="250" y="150" width="300" height="220" rx="10" ry="10" fill="#e0e0e0" stroke="#9e9e9e" stroke-width="2"/>
+  <rect x="260" y="160" width="280" height="180" rx="5" ry="5" fill="#ffffff" stroke="#bdbdbd" stroke-width="1"/>
+  
+  <!-- Screen content - farm dashboard -->
+  <rect x="270" y="170" width="260" height="30" rx="3" ry="3" fill="#4caf50" opacity="0.8"/>
+  <circle cx="290" cy="185" r="8" fill="#ffffff"/>
+  <rect x="305" y="180" width="100" height="10" rx="2" ry="2" fill="#ffffff"/>
+  
+  <!-- Dashboard elements -->
+  <rect x="270" y="210" width="120" height="60" rx="3" ry="3" fill="#c8e6c9"/>
+  <rect x="400" y="210" width="120" height="60" rx="3" ry="3" fill="#a5d6a7"/>
+  <rect x="270" y="280" width="120" height="50" rx="3" ry="3" fill="#81c784"/>
+  <rect x="400" y="280" width="120" height="50" rx="3" ry="3" fill="#66bb6a"/>
+  
+  <!-- Circular home button -->
+  <circle cx="400" cy="350" r="10" fill="#e0e0e0" stroke="#9e9e9e" stroke-width="1"/>
+  
+  <!-- Plant/crop visualization -->
+  <g transform="translate(500, 400)">
+    <!-- Soil -->
+    <rect x="-100" y="30" width="200" height="50" fill="#795548"/>
+    
+    <!-- Plants -->
+    <path d="M-70 30 Q-75 0 -60 -20 Q-50 -30 -40 -10 Q-35 0 -40 30" fill="#2e7d32"/>
+    <path d="M-20 30 Q-25 -10 -10 -30 Q0 -40 10 -20 Q15 0 10 30" fill="#388e3c"/>
+    <path d="M30 30 Q25 -5 40 -25 Q50 -35 60 -15 Q65 5 60 30" fill="#43a047"/>
+    
+    <!-- Stems -->
+    <line x1="-55" y1="-15" x2="-55" y2="30" stroke="#33691e" stroke-width="2"/>
+    <line x1="0" y1="-25" x2="0" y2="30" stroke="#33691e" stroke-width="2"/>
+    <line x1="45" y1="-20" x2="45" y2="30" stroke="#33691e" stroke-width="2"/>
+  </g>
+  
+  <!-- Mobile phone -->
+  <rect x="150" y="300" width="60" height="100" rx="5" ry="5" fill="#424242" stroke="#212121" stroke-width="2"/>
+  <rect x="155" y="310" width="50" height="70" rx="2" ry="2" fill="#81c784"/>
+  <circle cx="180" cy="390" r="5" fill="#9e9e9e"/>
+  
+  <!-- Text "Krishi Mitra" -->
+  <text x="400" y="450" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#2e7d32">Krishi Mitra</text>
+  <text x="400" y="480" font-family="Arial" font-size="16" text-anchor="middle" fill="#424242">Smart Farming Solution</text>
+</svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Hero research image (SVG replacement for JPG) -->
+  <rect width="800" height="500" fill="#f5f5f5"/>
+  
+  <!-- Background elements -->
+  <rect x="0" y="0" width="800" height="500" fill="#e8f5e9"/>
+  <rect x="0" y="400" width="800" height="100" fill="#c8e6c9"/>
+  
+  <!-- Laboratory/Research setting -->
+  <rect x="100" y="100" width="600" height="300" rx="5" ry="5" fill="#ffffff" stroke="#bdbdbd" stroke-width="2"/>
+  
+  <!-- Research equipment -->
+  <g transform="translate(250, 250)">
+    <!-- Microscope -->
+    <rect x="-20" y="-80" width="40" height="10" fill="#424242"/>
+    <rect x="-5" y="-70" width="10" height="50" fill="#616161"/>
+    <circle cx="0" cy="-80" r="15" fill="#9e9e9e"/>
+    <rect x="-25" y="-20" width="50" height="10" fill="#424242"/>
+    <rect x="-30" y="-10" width="60" height="5" fill="#212121"/>
+  </g>
+  
+  <!-- Test tubes -->
+  <g transform="translate(350, 250)">
+    <rect x="-40" y="-50" width="80" height="5" fill="#e0e0e0"/>
+    
+    <rect x="-35" y="-45" width="10" height="40" fill="#bbdefb" opacity="0.8" stroke="#90caf9" stroke-width="1"/>
+    <rect x="-20" y="-45" width="10" height="40" fill="#c8e6c9" opacity="0.8" stroke="#a5d6a7" stroke-width="1"/>
+    <rect x="-5" y="-45" width="10" height="40" fill="#fff9c4" opacity="0.8" stroke="#fff59d" stroke-width="1"/>
+    <rect x="10" y="-45" width="10" height="40" fill="#ffccbc" opacity="0.8" stroke="#ffab91" stroke-width="1"/>
+    <rect x="25" y="-45" width="10" height="40" fill="#e1bee7" opacity="0.8" stroke="#ce93d8" stroke-width="1"/>
+  </g>
+  
+  <!-- Plant samples -->
+  <g transform="translate(450, 230)">
+    <!-- Petri dish -->
+    <circle cx="0" cy="0" r="40" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1"/>
+    <circle cx="0" cy="0" r="35" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+    
+    <!-- Plant sample -->
+    <path d="M-10 10 Q-15 -10 -5 -20 Q0 -25 5 -15 Q10 -5 5 10" fill="#81c784" opacity="0.7"/>
+    <path d="M10 5 Q5 -15 15 -25 Q20 -30 25 -20 Q30 -10 25 5" fill="#66bb6a" opacity="0.7"/>
+    <line x1="0" y1="-15" x2="0" y2="10" stroke="#43a047" stroke-width="1"/>
+    <line x1="20" y1="-20" x2="20" y2="5" stroke="#43a047" stroke-width="1"/>
+  </g>
+  
+  <!-- Computer/Monitor -->
+  <g transform="translate(600, 200)">
+    <rect x="-50" y="-40" width="100" height="70" rx="2" ry="2" fill="#212121" stroke="#000000" stroke-width="2"/>
+    <rect x="-45" y="-35" width="90" height="60" fill="#81c784"/>
+    
+    <!-- Screen content - data visualization -->
+    <rect x="-40" y="-30" width="80" height="10" fill="#e8f5e9"/>
+    <rect x="-40" y="-15" width="30" height="35" fill="#e8f5e9"/>
+    <polyline points="-35,-5 -25,-15 -15,-10 -5,-20" fill="none" stroke="#2e7d32" stroke-width="1"/>
+    
+    <rect x="-5" y="-15" width="40" height="35" fill="#e8f5e9"/>
+    <circle cx="15" cy="0" r="15" fill="none" stroke="#2e7d32" stroke-width="1"/>
+    <path d="M5 0 Q15 -10 25 0" fill="none" stroke="#2e7d32" stroke-width="1"/>
+    
+    <!-- Stand -->
+    <rect x="-5" y="30" width="10" height="20" fill="#424242"/>
+    <rect x="-15" y="50" width="30" height="5" fill="#212121"/>
+  </g>
+  
+  <!-- Researcher (simplified) -->
+  <g transform="translate(150, 250)">
+    <!-- Lab coat -->
+    <rect x="-30" y="-50" width="60" height="100" rx="10" ry="10" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+    
+    <!-- Head -->
+    <circle cx="0" cy="-70" r="20" fill="#ffcc80"/>
+    
+    <!-- Hair -->
+    <path d="M-20 -80 Q0 -100 20 -80" fill="#5d4037"/>
+    
+    <!-- Face features (simplified) -->
+    <circle cx="-7" cy="-75" r="2" fill="#212121"/>
+    <circle cx="7" cy="-75" r="2" fill="#212121"/>
+    <path d="M-5 -65 Q0 -60 5 -65" fill="none" stroke="#212121" stroke-width="1"/>
+    
+    <!-- Arms -->
+    <rect x="-50" y="-20" width="20" height="10" rx="5" ry="5" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+    <rect x="30" y="-30" width="20" height="10" rx="5" ry="5" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+    
+    <!-- Clipboard -->
+    <rect x="30" y="-20" width="30" height="40" fill="#a1887f"/>
+    <rect x="35" y="-15" width="20" height="30" fill="#ffffff"/>
+    <line x1="40" y1="-10" x2="50" y2="-10" stroke="#9e9e9e" stroke-width="1"/>
+    <line x1="40" y1="-5" x2="50" y2="-5" stroke="#9e9e9e" stroke-width="1"/>
+    <line x1="40" y1="0" x2="50" y2="0" stroke="#9e9e9e" stroke-width="1"/>
+    <line x1="40" y1="5" x2="50" y2="5" stroke="#9e9e9e" stroke-width="1"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="450" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#2e7d32">Agricultural Research</text>
+</svg>
