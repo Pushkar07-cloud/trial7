@@ -107,7 +107,7 @@ export const FeaturesSection = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-green-700 text-lg px-8 py-4 font-semibold"
+                className="border-white text-green-700 text-lg px-8 py-4 font-semibold"
                 onClick={() => {
                   closeSidebar();
                   navigate('/evaluation-results');
@@ -118,7 +118,7 @@ export const FeaturesSection = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-green hover:bg-white hover:text-green-700 text-lg px-8 py-4 font-semibold"
+                className="border-white text-green-700 text-lg px-8 py-4 font-semibold"
                 onClick={() => {
                   closeSidebar();
                   navigate('/dashboard');
